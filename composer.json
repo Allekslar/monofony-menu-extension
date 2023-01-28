@@ -1,6 +1,7 @@
 {
     "name": "allekslar/monofony-menu-extension",
     "type": "symfony-bundle",
+    "description": "Adds 'sylius.menu.admin.main' event for Monofony/Skeleton",
     "license": "MIT",
     "minimum-stability": "dev",
     "authors": [
@@ -10,7 +11,7 @@
         }
       ],
     "require": {
-      
+         "php": ">=8.0"
     },
     "require-dev": {
         "symfony/config": "^6.0",
